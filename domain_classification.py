@@ -170,25 +170,140 @@ CATEGORIAS = {
                'rottent', 'cinemax', 'epix', 'tvtime', 'ifcfilms', 'cine', 'criterion', 'oscars', 'showbiz', 'goldenglobes', 
                'screenplay', 'moviethemes', 'boxd', 'actionfilm', 'drama', 'filmy', 'animation', 'horror', 'fantasyfilm', 
                'documentaries', 'romance', 'thriller', 'bollywood', 'marvel', 'dcfilms', 'universalpictures', 'dreamworks', 
-               '20thcenturyfox', 'sony', 'warnerbros', 'mgm', 'lionsgate'],                      
-               
+               '20thcenturyfox', 'sony', 'warnerbros', 'mgm', 'lionsgate', 'solarmovies', 'movieflix', 'sflix', 'filmrise', 
+               'vhx', 'moviez', 'stremio', 'azmovies', 'mymovie', 'mymovies', 'plex', 'tvseries', 'yts', 'yify', 'worldcinema', 
+               'putlocker', '123movies', 'gostream', 'watchseries', 'dailymotion', 'flix', 'classicfilm', 'broadway', 'filmnoir'],
 
-    'GOOGLE': ['google', 'youtube', 'gmail'],
-    'GOVERNO': ['gov', 'gov.br', 'govt', 'state', 'official'],
-    'HUMOR': ['9gag', 'humor', 'funny', 'jokes'],
-    'INTELIGENCIA_ARTIFICIAL': ['openai', 'chatgpt', 'deepmind', 'ai', 'machinelearning'],
-    'JOGOS': ['steam', 'epicgames', 'game', 'play', 'fortnite'],
-    'MICROSOFT': ['microsoft', 'windows', 'outlook', 'office'],
-    'MUSICAS': ['spotify', 'deezer', 'soundcloud', 'music', 'audio'],
-    'P2P_TORRENT': ['torrent', 'p2p', 'utorrent', 'filesharing'],
-    'PORNOGRAFIA': ['porn', 'xxx', 'adult', 'nsfw'],
-    'PORTAIS': ['uol', 'terra', 'ig', 'portal', 'news'],
-    'REDE_SOCIAIS': ['facebook', 'twitter', 'instagram', 'linkedin', 'social'],
-    'RESTRICOES_PROCON': ['procon'],
-    'SERVIDORES_ADSENSE': ['adsense', 'doubleclick', 'ad', 'advertising'],
-    'STREAMING': ['netflix', 'twitch', 'hulu', 'stream', 'tv', 'video'],
+     'GOOGLE': ['google', 'gmail', 'googlemaps', 'googletranslate', 'googlephotos', 'googlecalendar', 'googledrive', 'googleads', 'googleanalytics', 
+               'googlescholar', 'youtube', 'youtubemusic', 'googlesites', 'android', 'blogger', 'firebase', 'chromecast', 'doubleclick', 
+               'googlecloud', 'googlepay', 'hangouts', 'googleplay', 'searchconsole', 'googleforms', 'gstatic', 'appspot', 'withgoogle', 
+               'thinkwithgoogle', 'googlefonts', 'googlesurveys', 'googleearth', 'waze', 'g.co', 'madebygoogle', 'googlesupport', 'googleusercontent', 
+               'googlestore', 'waymo', 'verily', 'deepmind', 'wing', 'stadia', 'projectfi', 'sidewalklabs', 'lookout', 'googleclassroom', 
+               'dialogflow', 'googlemybusiness', 'thinkwithgoogle', 'learndigitalwithgoogle', 'googlekeep', 'google.org', 'googleforwork', 
+               'abc.xyz', 'googlepartners', 'googleventures', 'googlecrisisresponse', 'admob', 'tensor', 'thinkwithgoogle', 'googlemarketing', 
+               'googledev', 'googletravel', 'googleidentity', 'googleprivacy', 'googlenest', 'gsuite', 'googleblog', 'androiddev', 'developer.android'],
+
+    'GOVERNO': ['gov', 'govuk', 'census', 'irs', 'ssa', 'uscis', 'nhs', 'epa', 'fda', 'govtrack', 'house', 'senate', 'treasury', 'dod', 
+                'parliament', 'court', 'state', 'cia', 'nasa', 'usajobs', 'noaa', 'faa', 'cdc', 'justice', 'nps', 'governor', 'dot', 'omb', 
+                'legis', 'police', 'customs', 'tax', 'congress', 'govt', 'secure', 'defense', 'dhs', 'gobierno', 'govbrazil', 'revenue', 
+                'public', 'govonline', 'law', 'ombudsman', 'publicworks', 'postal', 'education', 'primeminister', 'govph', 'poderjudicial', 
+                'govin', 'govng', 'gob', 'govindonesia', 'govus', 'govgr', 'govau', 'gov.sg', 'mod', 'gov.cy', 'govil', 'gouv', 'defra', 
+                'govco', 'govjo', 'govqa', 'govpk', 'gofreight', 'govru', 'govae', 'govkp', 'gov.uk', 'nordgov', 'government.nl'],
+
+    'HUMOR': ['9gag', 'memedroid', 'iFunny', 'failblog', 'funnyordie', 'chive', 'memecenter', 'humor', 'lol', 'cracked', 'damnlol', 
+              'imgflip', 'memes', 'quickmeme', 'smosh', 'buzzfeed', 'cheezburger', 'xkcd', 'funnyjunk', 'jokes', 'textpost', 'memebase', 
+              'memes.com', 'comedy', 'funniest', 'laugh', 'sarcasm', '4chan', 'lolsnaps', 'memehub', 'funnyvote', 'reddit_funny', 
+              'memez', 'viral', 'collegehumor', 'thelaughbutton', 'thepoke', 'epicfails', 'memepool', 'laughfactory', 'babyyoda', 
+              'wearethememes', 'laughoutloud', 'wholesomememes', 'pepethefrog', 'dankmemes', 'stolenmemes', 'funnypictures', 'totallylookslike', 
+              'memewar', 'toomanyfunny', 'epicmeme', 'meming', 'memeupdate', 'funnytext', 'makeameme', 'memeking', 'laughbite', 'saturdayfun'],
+
+    'INTELIGENCIA_ARTIFICIAL': ['openai', 'chatgpt', 'bard', 'midjourney', 'stability', 'huggingface', 'cohere', 'anthropic', 'inflection', 
+                                'runway', 'neuralink', 'deepmind', 'nvidiaai', 'watson', 'alibabaai', 'microsoftai', 'faceplusplus', 
+                                'clarifai', 'voicera', 'speechmatics', 'awsml', 'azureml', 'vertexai', 'ibmcloudai', 'salesforceeinstein', 
+                                'ai21', 'abbyy', 'kapwing', 'jasperai', 'snorkel', 'synthesia', 'openmind', 'braincorp', 'cleverbot', 
+                                'replika', 'voiceai', 'datadogai', 'domoai', 'contentdna', 'aigenerations', 'playgroundai', 'artbreeder', 
+                                'deepai', 'aiassistant', 'weaviate', 'deeplearning', 'machinelearning', 'finetuning', 'predict', 
+                                'automl', 'deepturing', 'elementai', 'computervision', 'cognitiveservices', 'recurrent', 'embeddings', 
+                                'deepface', 'xnor', 'modeling', 'extraction', 'bigml', 'algorithms', 'machinevision', 'bigbrain', 'deepr'],
+
+    'JOGOS': ['steam', 'epicgames', 'ubisoft', 'playstation', 'xbox', 'nintendo', 'ea', 'riotgames', 'roblox', 'twitch', 'discord', 
+              'gog', 'battlenet', 'gamespot', 'kotaku', 'minecraft', 'fortnite', 'wow', 'gamefaqs', 'esl', 'ign', 'pcgamer', 
+              'nvidia', 'gamepass', 'thesims', 'pokemongo', 'gameplay', 'espn_esports', 'crossfire', 'warframe', 'gamepedia', 
+              'pubg', 'valorant', 'leagueoflegends', 'dota2', 'callofduty', 'battlefield', 'csgo', 'amongus', 'apexlegends', 
+              'fallguys', 'cyberpunk', 'fifa', 'madden', 'destiny', 'borderlands', 'clashofclans', 'candycrush', 'rocketleague', 
+              'guildwars', 'runescape', 'halo', 'elder', 'finalfantasy', 'tekken', 'streetfighter', 'mortalcombat', 'ghostrecon', 
+              'assassinscreed', 'granblue', 'smashbros', 'dungeonsdragons', 'overwatch', 'yugioh', 'pokemontcg', 'hearthstone', 
+              'wowclassic', 'genshinimpact', 'totalwar', 'play', 'retro', 'sims'],
+
+    'MICROSOFT': ['microsoft', 'windows', 'office', 'onedrive', 'outlook', 'skype', 'msn', 'bing', 'xbox', 'azures', 'microsoftteams', 
+                  'github', 'linkedin', 'msdn', 'powerbi', 'dynamics', 'microsoftstore', 'yammer', 'mix', 'hololens', 'microsoft365', 
+                  'live', 'sharepoint', 'microsoftedge', 'ie', 'visualstudio', 'powerpoint', 'excel', 'word', 'access', 'onedrive', 
+                  'mspoweruser', 'techcommunity', 'msoutlook', 'technet', 'docs.microsoft', 'dotnet', 'msazure', 'surface', 'infopath', 
+                  'microsoftgraph', 'msoffice', 'msdn.microsoft', 'msstore', 'msonline', 'msevent', 'microsoftdeveloper', 'exchange', 
+                  'msonline', 'azuredev', 'windowsserver', 'winbeta', 'msbuild', 'microsoftgames', 'msstore', 'msmixer', 'msvisio'],
+
+    'MUSICAS': ['spotify', 'soundcloud', 'applemusic', 'deezer', 'tidal', 'pandora', 'bandcamp', 'lastfm', 'audiomack', 'reverbnation', 
+                'shazam', 'iheart', 'mixcloud', 'jiosaavn', 'beatport', 'audiomack', 'musictimes', 'genius', 'azlyrics', 'musixmatch', 
+                'livexlive', 'vinylmeplease', 'classicalfm', 'radiotunes', 'allmusic', 'digitalsound', 'smule', 'idolator', 'gaana', 
+                'myspace', 'soundhound', 'soundclick', 'freegalmusic', 'songkick', 'concert', 'gigfinder', 'spotalike', 'lyricstranslate', 
+                'musicto', 'amazonmusic', 'rhapsody', 'freesound', 'jazzradio', 'rap', 'trending', 'musicfox', 'emusic', 'musicfrom', 
+                'liveradio', 'tuneinradio', 'internet-radio', 'guitarhero', 'coke', 'country', 'sound', 'pop', 'gospel', 'jazz', 'classical', 
+                'hiphop', 'blues', 'metal', 'rock', 'electronic', 'folk', 'instrumental'],
+
+    'P2P_TORRENT': ['torrent', 'thepiratebay', '1337x', 'rarbg', 'yts', 'kickass', 'extratorrent', 'limetorrents', 'zooqle', 'torrentz', 
+                    'torlock', 'seedpeer', 'bitsnoop', 'demonoid', 'torrentdownloads', 'monova', 'idopese', 'bt-scene', 'ettv', 'kat', 
+                    'moviepedia', 'torrentfunk', 'toros', 'yourbittorrent', 'torrentproject', 'bittorrent', 'tracker', 'openbittorrent', 
+                    'mininova', 'sharetv', 'moviemagnet', 'magnetdl', 'isoHunt', 'rarbgmirror', 'megaupload', 'filehost', 'torrentfiles', 
+                    'torrenthound', 'torrentdb', 'btarena', 'freetorrent', 'torrentking', 'torrentree', 'extratorrents', 'exvagos', 
+                    'kickasskat', 'torrent-room', 'torrentcounter', 'rarbggo'],
+
+    'PORNOGRAFIA': ['pornhub', 'xvideos', 'xnxx', 'chaturbate', 'brazzer', 'onlyfans', 'livejasmin', 'cam4', 'camsoda', 'stripchat', 
+                    'camwhores', 'youporn', 'redtube', 'spankbang', 'tnaflix', 'lust', 'rule34', 'tube8', 'xtube', 'faphouse', 'erome', 
+                    'slutload', 'xhamster', 'cams', 'mature', 'jizzbunker', 'pornmd', 'pornhd', 'babes', 'fantasy', 'milf', 'kink', 'playboy', 
+                    'bangbros', 'realitykings', 'bad-dragon', 'clips4sale', 'myfreecams', 'camsoda', 'filth', 'amateur', 'hot', 'dare', 
+                    'blow', 'chat', 'fetish', 'fet', 'hub', 'matureporn', 'tiny', 'camsfuse', 'exotic', 'wet', 'bad', 'camstube'],
+
+    'PORTAIS': ['uol', 'terra', 'ig', 'r7', 'bol', 'globo', 'yahoo', 'msn', 'reddit', 'flipboard', 'buzzfeed', 'digg', 'vib', 'dailynews', 
+                'usatoday', 'eltiempo', 'elpais', 'lemonde', 'bbc', 'apnews', 'cnnbrasil', 'abcnews', 'forbes', 'bloomberg', 'financialtimes', 
+                'boston', 'aljazeera', 'npr', 'independent', 'buzz', 'telegraph', 'guardian', 'timesofindia', 'straitstimes', 'washingtonpost', 
+                'thesun', 'chicagotribune', 'usatoday', 'express', 'metro', 'observer', 'nytimes', 'politico', 'axios', 'detroitnews', 
+                'wpost', 'sfgate', 'usmagazine', 'slate', 'dailykos', 'bostonglobe', 'dailymirror', 'dailymail', 'tribune'],
+
+        'REDE_SOCIAIS': ['facebook', 'instagram', 'twitter', 'tiktok', 'snapchat', 'whatsapp', 'wechat', 'linkedin', 'telegram', 
+                     'pinterest', 'tumblr', 'reddit', 'flickr', 'vine', 'periscope', 'myspace', 'friendster', 'bebo', 'mewe', 
+                     'kakaotalk', 'line', 'vkontakte', 'qq', 'mixi', 'peach', 'nextdoor', 'viber', 'wechat', 'plurk', 'mastodon', 
+                     'gab', 'clouthub', 'parler', 'getter', 'clubhouse', 'taringa', 'ello', 'diaspora', 'couchsurfing', 'goodreads', 
+                     'ok.ru', 'medium', 'livejournal', 'weibo', 'renren', 'snap', 'onlyfans', 'discord', 'messenger'],
+
+    'STREAMING': ['netflix', 'primevideo', 'hulu', 'disneyplus', 'hbomax', 'crunchyroll', 'funimation', 'peacocktv', 'fubo', 'sling', 
+                  'dazn', 'showtime', 'starz', 'pandora', 'spotify', 'deezer', 'soundcloud', 'applemusic', 'tidal', 'youtubemusic', 
+                  'napster', 'audible', 'paramountplus', 'iplayer', 'iplayer', 'pluto.tv', 'tubitv', 'mxplayer', 'jiotv', 'gaana', 
+                  'tvnow', 'plex', 'kanopy', 'mubi', 'discoveryplus', 'shahid', 'iflix', 'sonyliv', 'aha', 'viu', 'hotstar', 'zee5', 
+                  'hbo', 'rokutv', 'puhu', 'viki', 'joox', 'patreon', 'quibi', 'vimeo', 'ustream'],
+
+    'SHOPPING': ['amazon', 'alibaba', 'aliexpress', 'ebay', 'mercadolivre', 'etsy', 'rakuten', 'bestbuy', 'walmart', 'wish', 'shopee', 
+                 'carrefour', 'costco', 'target', 'home', 'ikea', 'weg', 'samsclub', 'newegg', 'bhphotovideo', 'argom', 'flipkart', 
+                 'daraz', 'groupon', 'shop', 'deal', 'emart', 'zalando', 'next', 'asos', 'overstock', 'qvc', 'gnc', 'bookdepository', 
+                 'bookshop', 'myntra', 'farfetch', 'sephora', 'ulta', 'flipkart', 'grofers', 'ubuy', 'bigbasket', 'snapdeal', 
+                 'snapfish', 'sclick', 'targetplus', 'tops'],
+
+    'NOTICIAS': ['cnn', 'bbc', 'nytimes', 'wsj', 'forbes', 'reuters', 'bloomberg', 'usatoday', 'cbsnews', 'abcnews', 'aljazeera', 
+                 'foxnews', 'npr', 'msnbc', 'washingtonpost', 'latimes', 'newsweek', 'time', 'huffpost', 'guardian', 'newsmax', 
+                 'businessinsider', 'rt', 'univision', 'telemundo', 'elpais', 'lefigaro', 'lemonde', 'dailymail', 'thesun', 
+                 'financialtimes', 'newyorker', 'axios', 'buzzfeed', 'flipboard', 'infobae', 'timesofindia', 'globoesporte', 
+                 'g1', 'oantagonista', 'em.com', 'correiobraziliense', 'estadão', 'veja', 'valor', 'band', 'recordtv', 'ndtv'],
+
+    'EDUCACIONAL': ['coursera', 'edx', 'udemy', 'khanacademy', 'futurelearn', 'udacity', 'alison', 'codeacademy', 'openlearn', 
+                    'w3schools', 'linkedinlearning', 'brilliant', 'pluralsight', 'skillshare', 'datacamp', 'lynda', 'memrise', 
+                    'duolingo', 'babbel', 'rosedale', 'byjus', 'vedantu', 'unacademy', 'icai', 'bytedance', 'turing', 'stepik', 
+                    'hellotalk', 'sololearn', 'accredible', 'thinkific', 'vivedu', 'elearning', 'openlearning', 'openclassrooms', 
+                    'quizlet', 'teachabl', 'treehouse', 'blockacademy', 'alamance', 'academic', 'academicresource'],
+
+         'RESTRICOES_PROCON': ['jogo', 'bet365', 'pokerstars', 'betfair', '888casino', 'blaze', 'leovegas', '1xbet', 'williamhill', 'betway', 
+                          'sportingbet', 'bwin', 'betsson', 'betano', '22bet', 'rivalo', 'bodog', 'jackpot', 'luckia', 'casino', 
+                          'bingoonline', 'slotomania', 'megajogos', 'freespin', 'blackjack', 'ladbrokes', 'unibet', 'betclic', 'royalvegas', 
+                          'casumo', 'betvictor', 'paddypower', 'mrgreen', 'gala', 'betfred', 'superbahis', 'codere', 'interwetten', 'bingo', 
+                          'spin', 'jackpotcity', 'slotland', 'gamblers', 'jogodebicho', 'scasino', 'gamevance', 'betboo', 'casinotitan', 
+                          '24hrsbets', 'apostaganh', 'easybet', 'azartmania', 'freelotto', 'starcity'],
+
+    'SERVIDORES_ADSENSE': ['doubleclick', 'googlesyndication', 'adservice', 'adsense', 'media.net', 'criteo', 'outbrain', 'taboola', 
+                           'revcontent', 'mgid', 'adroll', 'clickadu', 'propellerads', 'zedo', 'yahoo', 'rubiconproject', 'appnexus', 
+                           'pubmatic', 'openx', 'adcolony', 'smaato', 'bidtellect', 'sonobi', 'contextweb', 'indexexchange', 'triplelift', 
+                           'spotx', 'bidswitch', 'rhythmone', 'gumgum', 'yahoossp', 'smartadserver', 'teads', 'kargo', 'moat', 
+                           'stickyadstv', 'xandr', 'simplifi', 'mediavine', 'brid', 'undertone', 'chitika', 'verizonmedia', 'quantcast', 
+                           'geniusmonkey', 'zergnet', 'stackadapt', 'content.ad', 'taboola', 'insticator', 'sovrn', 'exponential', 
+                           'pulsepoint', 'nativo', 'revive', 'bidsmart', 'clickio', 'marfeel', 'yieldmo'],
+
+    'STREAMING': ['netflix', 'primevideo', 'disneyplus', 'hulu', 'hbomax', 'paramountplus', 'twitch', 'youtube', 'spotify', 'applemusic', 
+                  'soundcloud', 'deezer', 'tidal', 'pandora', 'crunchyroll', 'funimation', 'viki', 'peacocktv', 'pluto.tv', 'sling', 
+                  'xumo', 'dazn', 'fubo', 'showtime', 'starz', 'quibi', 'mubi', 'ustvgo', 'jiocinema', 'hotstar', 'tvnow', 'plex', 
+                  'roku', 'voot', 'sonyliv', 'viutv', 'iflix', 'shahid', 'kanopy', 'livestream', 'youtubetv', 'boxplus', 'wowza', 
+                  'ustream', 'ustvnow', 'bein', 'discoveryplus', 'fancast', 'gaana', 'joox', 'rokuchannel', 'cbsallaccess', 'radiotime', 
+                  'buzzr', 'afizz'],
+
+    # Adicione mais categorias, se necessário
 }
-
+                      
 # Função de classificação aprimorada
 def classificar_dominio(dominio):
     for categoria, keywords in CATEGORIAS.items():
@@ -223,7 +338,7 @@ def processar_arquivos(diretorio):
 
 # Função principal
 def main():
-    # Diretório onde os arquivos estão localizados
+    # Diretório onde os arquivos estão localizados  
     diretorio = '/home/alisson/group_generator_rules'
 
     # Processar os arquivos no diretório especificado
